@@ -19,14 +19,14 @@ header p {
   font-size: 1.125rem;
 }
 
-html {
-  box-sizing: border-box;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
+p {
+  color: #222;
 }
 
 blockquote {
   color: #555
+}
+
+body ol {
+  padding-left: 1rem;
 }
