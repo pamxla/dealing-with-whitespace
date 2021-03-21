@@ -1,32 +1,51 @@
 html {
-    box-sizing: border-box;
-    font-family: 'Crimson', serif;
-    line-height: 1.3;
-  }
+  box-sizing: border-box;
+  font-family: "Crimson Text", serif;
+  line-height: 1.3;
+}
 
-  *, *::before, *::after {
-    box-sizing: inherit;
-  }
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 
-h1 {
-  font-family: 'Crimson', regular;
+body {
+  font-size: 1em;
+  padding: 1em;
+  margin: 0;
+}
+
+article {
+color: #222;
+}
+
+header {
+  border-bottom: solid;
+  border-sizes: 2px;
+}
+
+article h1 {
+  font-family: "Crimson Text", regular;
   font-weight: normal;
   font-size: 1.5rem;
 }
 
-header p {
+article p {
+  font-weight: normal;
+}
+
+article header p {
   font-style: italic;
   font-size: 1.125rem;
 }
 
-p {
-  color: #222;
-}
-
 blockquote {
-  color: #555
+  color: #555;
 }
 
-body ol {
+.quote {
+  color: #999;
+}
+
+article ol {
   padding-left: 1rem;
 }
