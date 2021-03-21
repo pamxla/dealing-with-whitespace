@@ -15,18 +15,22 @@ body {
 }
 
 article {
-color: #222;
+  color: #222;
+  padding-bottom: .5rem;
+  border-bottom: solid;
+  border-width: thin;
 }
 
-header {
+article header {
   border-bottom: solid;
-  border-sizes: 2px;
+  border-width: thin;
 }
 
 article h1 {
   font-family: "Crimson Text", regular;
   font-weight: normal;
   font-size: 1.5rem;
+  margin-top: .05em;
 }
 
 article p {
